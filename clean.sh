@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf volume_docker/project1
 docker stop client
 docker stop server
 docker rm client
